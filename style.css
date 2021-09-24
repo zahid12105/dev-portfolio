@@ -1,0 +1,37 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+h1{
+   font-size: 50px;
+}
+.tomato-web-zahid{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 100px;
+}
+.half-width img{
+    width: 95%;
+    padding-top: 50px;
+}
+.flexibal-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
