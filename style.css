@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.orange-title{
+    color: tomato;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 120px;
+}
+.half-width img{
+    width: 80%;
+    padding-top: 40px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.middel-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+.downlode-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+p{
+    text-align: justify;
+}
+.rigth-padding{
+    padding-right: 100px;
+}
+.space{
+    margin-left: 60px;
+}
+.botton-image{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px 20px tomato;
+    border-radius: 10px;
+}
+.box-text{
+    padding: 40px;
+}
+.center{
+    text-align: center;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.title-padding{
+    padding-right: 10px;
+}
+footer p{
+    text-align: center;
+}
